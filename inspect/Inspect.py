@@ -5,7 +5,7 @@ from typing import List, Dict, Tuple
 from ..type.TypedValues import Descriptor
 
 
-def create_signature(lst_names: List[str] = None):
+def create_signature(lst_names: List[str] = None) -> Signature:
     """
     Create Signature object for the list of arguments.
     :param lst_names: List of arguments to create a signature.
